@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Google Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<style>
+body {
+    padding-left: 20px;
+}
+
+.question {
+    font-family: Montserrat;
+    font-weight: 400;
+    text-align: center;
+}
+
+.question2 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.mainlogo {
+    width: 45px;
+    height: 45px;
+}
+
+.title {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.noaccess {
+    font-family: Montserrat;
+}
+
+.answerbox2 {
+    color: darkslategrey;
+    border-color: grey;
+    font-family: Montserrat;
+}
+
+.mainbox {
+    width: 320px;
+    text-align: center;
+    padding: 10px;
+    border: 4px solid gray;
+    margin: 0;
+    border-radius: 7px;
+}
+
+.mainbutton {
+    color: white;
+    background-color: #18233a;
+    width: 100px;
+    height: 28px;
+    border-radius: 10px;
+    font-family: Montserrat;
+}
+</style>
+<body>
+<div class="header">
+  <a href="#default" class="logo">DM Projects</a>
+  <div class="header-right">
+    <a class="active" href="http://dmprojects.cf">Home</a>
+    <a href="http://dmprojects.cf/projects">Projects</a>
+    <a href="http://dmprojects.cf/contact">Contact me</a>
+    <a href="http://dmprojects.cf/about">About</a>
+ </div>
+</div><br><br>
+<br>
+<h2 class="title"><img src="logo.png" class="mainlogo">   Google Account</h2><br>
+<div class="mainbox">
+<h3 class="question">Username: <input type="text" class="answerbox"></h3>
+<h3 class="question">Password: <input type="password" class="answerbox"></h3>
+<h3 class="question2"><input type="checkbox" class="answerbox">Stay signed in</h3><br>
+<input type="submit" name="submit" class="mainbutton">
+<input type="reset" name="reset" class="mainbutton"><br><br>
+<a href="http:\\dmprojects.cf" class="noaccess">Can't access your account?</a>
+</div>
+</body>
